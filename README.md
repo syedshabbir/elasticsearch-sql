@@ -49,7 +49,7 @@ With your application running, and your trial ES license, you should be able to 
 http://localhost:8080/jdbc-sql?text=ebola
 `
 
-If you've setup the Gradle project in your IDE, have a look at the other avaiable controller requests and underlying services etc. THere are requests managed with 
+If you've setup the Gradle project in your IDE, have a look at the other available controller requests and underlying services etc. There are requests managed with 
 
 - ES JDBC client
 - ES low-level REST client
