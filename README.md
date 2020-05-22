@@ -55,4 +55,10 @@ If you've setup the Gradle project in your IDE, have a look at the other availab
 - ES low-level REST client
 - Spring WebClient
 
+Too shutdown the application 
+
+`
+curl -X POST localhost:8080/actuator/shutdown
+`
+
 
