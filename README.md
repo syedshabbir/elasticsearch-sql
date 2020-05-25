@@ -1,10 +1,8 @@
 # elasticsearch-sql
 
-## Setup
+## Setup requirements
 - ElasticSearch 7.7
 - Java 11
-
-## Startup
 
 Add the entry below to your config/elasticsearch.yml file
 
@@ -22,6 +20,8 @@ set path=C:\Program Files\Java\jdk-11.0.7\bin;%path%
 `
 
 Above applies to all consoles used for running commands.
+
+## Startup
 
 Execute *ES_HOME/bin/elasticsearch[.bat]* to start your ES instance. Using your favourite ES client or just plain commandline, you can optionally create a trial license for subscribed ES products as described at the [ES trial page](https://www.elastic.co/guide/en/elasticsearch/reference/current/start-trial.html). It will mean you can see the JDBC SQL stuff in action. 
 
