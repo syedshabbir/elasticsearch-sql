@@ -49,6 +49,30 @@ With your application running, and your trial ES license, you should be able to 
 http://localhost:8080/jdbc-sql?text=ebola
 `
 
+#REST call in DSL format with Spring web client
+
+`
+http://localhost:8080/dsl-sql-json-web-client
+`
+
+#REST call in DSL format with ES REST client
+
+`
+http://localhost:8080/dsl-sql-json-es-client
+`
+
+#REST call in DSL format with Spring web client with dynamic search value
+
+`
+http://localhost:8080/dsl-sql-json-param-web-client?text=ebola
+`
+
+#REST call in DSL format with Spring web client with dynamic search value
+
+`
+http://localhost:8080/dsl-sql-json-param-es-client?text=ebola
+`
+
 If you've setup the Gradle project in your IDE, have a look at the other available controller requests and underlying services etc. There are requests managed with 
 
 - ES JDBC client
